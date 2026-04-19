@@ -1,0 +1,23 @@
+# Core
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+sqlalchemy==2.0.31
+pydantic==2.8.2
+pydantic-settings==2.3.4
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.9
+aiofiles==23.2.1
+pillow==10.4.0
+httpx==0.27.2
+numpy
+
+# AI — Groq (text + vision)
+groq==0.11.0
+
+# OCR — local text extraction from images
+easyocr
+
+# SMS
+twilio==9.3.3
