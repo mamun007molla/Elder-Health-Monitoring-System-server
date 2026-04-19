@@ -13,11 +13,8 @@ pillow==10.4.0
 httpx==0.27.2
 numpy
 
-# AI — Groq (text + vision)
+# AI
 groq==0.11.0
 
-# OCR — local text extraction from images
-easyocr
-
-# SMS
+# SMS (optional)
 twilio==9.3.3
